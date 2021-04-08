@@ -5,7 +5,7 @@
     <title>After School Club</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    
 	
 	<style>
 body {
@@ -16,6 +16,9 @@ body {
   body {
     background-color: #fff;
   }
+}
+aside {
+    float: right;
 }
 </style>
 </head>
@@ -28,7 +31,7 @@ body {
             <header>
                 <h1 v-text="headername"></h1>
                 <button v-if="cart.length > 0" @click='showCheckout'> {{cart.length}} <span
-                        class="fas fa-cart-plus"></span>Checkout</button>
+                        class="fas fa-cart-plus"></span>CHECKOUT</button>
             </header>
         </div>
         <hr>
@@ -36,16 +39,16 @@ body {
             <div class="base">
                 <aside>
 				<br><br>
-                    <h4>Sort by</h4>
+                    <h4>SORT BY</h4>
 					
                     <ul>
   
   <input type="radio" id="subject" name="sort" value="subject"  @click="type = 'subject'">
-  <label for="subject">Subject</label><br>
+  <label for="subject">SUBJECTt</label><br>
   <input type="radio" id="location" name="sort" value="location"  @click="type = 'location'">
-  <label for="locaton">Location</label><br>
+  <label for="locaton">LOCATION</label><br>
   <input type="radio" id="price" name="sort" value="price"  @click="type = 'price'">
-  <label for="price">Price</label><br>
+  <label for="price">PRICE</label><br>
   
                     </ul>
 					
@@ -55,7 +58,7 @@ body {
                 <main>
                     <div v-if='!showProduct'>
                         <div class="tbar">
-                            <h1>Lessons</h1>
+                            <h1>LESSONS</h1>
                             <select v-model="sort" id="sortby">
                                 <option value="descending">DESCENDING</option>
                                 <option value="ascending">ASCENDING</option>
