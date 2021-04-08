@@ -9,7 +9,7 @@
 	
 	<style>
 body {
-  background-color: pink;
+  background-color: grey;
 }
 
 @media screen and (min-width: 480px) {
@@ -75,7 +75,7 @@ body {
                                 <p>Spaces: {{lessons.availableInventory}}</p>
                                 <button v-on:click='addItemToCart(lessons)' :disabled="!lessons.availableInventory" class="button">Add to
                                     cart</button>
-                                <span v-if="lessons.availableInventory">{{'Left '+ lessons.availableInventory}}</span>
+                                <span v-if="lessons.availableInventory">{{lessons.availableInventory + ' ' + 'SPACES LEFT'}}</span>
                                 <span v-else>Out of Stock</span>
                             </div>
                         </div>
