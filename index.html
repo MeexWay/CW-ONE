@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>After School Club</title>
+    <title>AFTER SCHOOL CLUB</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     
@@ -79,7 +79,7 @@ aside {
                                 <button v-on:click='addItemToCart(lessons)' :disabled="!lessons.availableInventory" class="button">Add to
                                     cart</button>
                                 <span v-if="lessons.availableInventory">{{lessons.availableInventory + ' ' + 'SPACES LEFT'}}</span>
-                                <span v-else>Out of Stock</span>
+                                <span v-else>NO SPACE AVAILABLE</span>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ aside {
                             <div class="tbar">
                                 <button @click="showCheckout"><span class="fas fa-chevron-left"></span> Go back</button>
                               
-								<h4>Total Amount:₦{{total}}</h4>
+								<h4>TOTAL AMOUNT:₦{{total}}</h4>
                             </div>
                             <h4>Cart List</h4>
                             <div class="cart">
