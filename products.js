@@ -1,80 +1,80 @@
 var lessons = [
     {
         "id":101,
-        "subject":"English",
-        "location":"Bauchi",
+        "subject":"ENGLISH",
+        "location":"BAUCHI",
         "price":280,
         "availableInventory":5,
         "image": "images/eng.jfif"
     },
     {
         "id":102,
-        "subject":"Mathematics",
-        "location":"Lagos",
+        "subject":"MATHEMATICS",
+        "location":"LAGOS",
         "price":215,
         "availableInventory":5,
         "image":"images/maths.jfif"   
     },
     {
         "id":103,
-        "subject":"Chemistry",
-        "location":"Abuja",
+        "subject":"CHEMISTRY",
+        "location":"ABUJA",
         "price":230,
         "availableInventory":5,
         "image":"images/chem.jfif"   
     },
     {
         "id":104,
-        "subject":"Physics",
-        "location":"Kwara",
+        "subject":"PHYSICS",
+        "location":"KWARA",
         "price":110,
         "availableInventory":5,
         "image":"images/physics.jfif"   
     },
     {
         "id":105,
-        "subject":"Arabic",
-        "location":"Sokoto",
+        "subject":"ARABIC",
+        "location":"SOKOTO",
         "price":150,
         "availableInventory":5,
         "image":"images/arabic.jfif"   
     },
     {
         "id":106,
-        "subject":"Hausa",
-        "location":"Kano",
+        "subject":"ECONOMICS",
+        "location":"KANO",
         "price":200,
         "availableInventory":5,
-        "image":"images/img6.jpg"   
+        "image":"images/econs.jfif"   
     },
     {
         "id":107,
-        "subject":"Music",
-        "location":"Osun",
+        "subject":"MUSIC",
+        "location":"OSUN",
         "price":110,
         "availableInventory":5,
         "image":"images/music.jfif"   
     },
     {
         "id":108,
-        "subject":"Programming",
-        "location":"Ogun",
+        "subject":"PROGRAMMING",
+        "location":"OGUN",
         "price":120,
         "availableInventory":5,
         "image":"images/programming.jfif"   
     },
     {
         "id":109,
-        "subject":"Agric Science",
-        "location":"Katsina",
+        "subject":"AGRIC SCIENCE",
+        "location":"KATSINA",
         "price":180,
         "availableInventory":5,
         "image":"images/agric.jfif"   
     },
     {
         "id":110,
-        "subject":"Social Studies",
-        "location":"Kaduna",
+        "subject":"SOCIAL STUDIES",
+        "location":"KADUNA",
         "price":100,
         "availableInventory":5,
         "image":"images/social.jfif"   
