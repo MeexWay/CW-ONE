@@ -32,7 +32,7 @@ var app = new Vue({
             this.showProduct = !this.showProduct;
         },
         submit() {
-            if (this.phone_number(this.user.number)) {
+            if (this.user.name(this.user.name)) {
                 alert('ORDER SUBMITTED.')
                 console.log(this.user);
             }
